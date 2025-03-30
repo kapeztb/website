@@ -1,78 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="de">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Velbert</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function changeLanguage(lang) {
+            document.querySelectorAll('[data-lang]').forEach(el => {
+                el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+            });
+        }
+    </script>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="de"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;ECG Velbert&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="styles.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>function changeLanguage(lang) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('[data-lang]').forEach(el =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';</p>
-<p class="p1"><span class="Apple-converted-space">            </span>});</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body onload="changeLanguage('de')"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Evangeliums-Christen Gemeinde Velbert&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#about"&gt;Über uns&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#services"&gt;Gottesdienste&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#contact"&gt;Kontakt&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="language-switcher"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="germany-flag.png" alt="Deutsch" onclick="changeLanguage('de')"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="russia-flag.png" alt="Русский" onclick="changeLanguage('ru')"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;main&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="about"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 data-lang="de"&gt;Über uns&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 data-lang="ru" style="display:none;"&gt;О нас&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="de"&gt;Die Evangeliums-Christen Gemeinde Velbert ist eine unabhängige Ortsgemeinde des vollen Evangeliums.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="ru" style="display:none;"&gt;Евангельско-христианская церковь Фельберт - это независимая местная церковь полного Евангелия.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="services"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 data-lang="de"&gt;Gottesdienste&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 data-lang="ru" style="display:none;"&gt;Богослужения&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="de"&gt;Unsere Gottesdienste finden regelmäßig statt. Schauen Sie vorbei!&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="ru" style="display:none;"&gt;Наши богослужения проходят регулярно. Заходите!&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 data-lang="de"&gt;Kontakt&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 data-lang="ru" style="display:none;"&gt;Контакты&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="de"&gt;Adresse: Röntgenstr. 5, 42549 Velbert&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="ru" style="display:none;"&gt;Адрес: Рёнтгенштрассе 5, 42549 Фельберт&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="de"&gt;Email: buero@ecg-velbert.de&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p data-lang="ru" style="display:none;"&gt;Эл. почта: buero@ecg-velbert.de&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p data-lang="de"&gt;&amp;copy; 2025 ECG Velbert. Alle Rechte vorbehalten.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p data-lang="ru" style="display:none;"&gt;&amp;copy; 2025 ECG Velbert. Все права защищены.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<body onload="changeLanguage('de')">
+    <header>
+        <h1>Evangeliums-Christen Gemeinde Velbert</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#services">Gottesdienste</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <img src="germany-flag.png" alt="Deutsch" onclick="changeLanguage('de')">
+            <img src="russia-flag.png" alt="Русский" onclick="changeLanguage('ru')">
+        </div>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2 data-lang="de">Über uns</h2>
+            <h2 data-lang="ru" style="display:none;">О нас</h2>
+            <p data-lang="de">Die Evangeliums-Christen Gemeinde Velbert ist eine unabhängige Ortsgemeinde des vollen Evangeliums.</p>
+            <p data-lang="ru" style="display:none;">Евангельско-христианская церковь Фельберт - это независимая местная церковь полного Евангелия.</p>
+        </section>
+        
+        <section id="services">
+            <h2 data-lang="de">Gottesdienste</h2>
+            <h2 data-lang="ru" style="display:none;">Богослужения</h2>
+            <p data-lang="de">Unsere Gottesdienste finden regelmäßig statt. Schauen Sie vorbei!</p>
+            <p data-lang="ru" style="display:none;">Наши богослужения проходят регулярно. Заходите!</p>
+        </section>
+        
+        <section id="contact">
+            <h2 data-lang="de">Kontakt</h2>
+            <h2 data-lang="ru" style="display:none;">Контакты</h2>
+            <p data-lang="de">Adresse: Röntgenstr. 5, 42549 Velbert</p>
+            <p data-lang="ru" style="display:none;">Адрес: Рёнтгенштрассе 5, 42549 Фельберт</p>
+            <p data-lang="de">Email: buero@ecg-velbert.de</p>
+            <p data-lang="ru" style="display:none;">Эл. почта: buero@ecg-velbert.de</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p data-lang="de">&copy; 2025 ECG Velbert. Alle Rechte vorbehalten.</p>
+        <p data-lang="ru" style="display:none;">&copy; 2025 ECG Velbert. Все права защищены.</p>
+    </footer>
 </body>
 </html>
